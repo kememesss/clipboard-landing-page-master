@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+#pcbg {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#mbbg{
+    position: absolute;
+    width:100%;
+    z-index: 0;
+    opacity: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#copyright {
+    margin-top: 80px;
+    font-size: 10rem;
+    font-weight: normal;
+    color: hsl(171, 66%, 44%);
+    font-family: sans-serif;
+}
+
+.historyText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 500px 0px 500px;
+}
+
+.historyText p {
+    margin-top: 30px;
+}
+
+.buttons {
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button {
+    padding: 13px 28px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+}
+
+#iosbutton {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 1px 4px 4px 0px hsl(171, 67%, 22%);
+}
+
+#macbutton {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 1px 4px 4px 0px hsl(233, 45%, 36%);
+}
+
+.historyText h2 {
+    margin-top: 120px;
+}
+
+.imagerow {
+    margin-top:80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightText img {
+    position: absolute;
+}
+
+.group {
+    margin: 20px 120px;
+    margin-right: 340px;
+}
+
+.imagecenter img {
+    margin-top: 100px;
+}
+
+.superchargeText {
+    text-align: center;
+}
+
+.superchargeText p {
+    margin-top: 20px;
+}
+
+.newText {
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+.namethis {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+
+
+    margin-top: 40px;
+}
+
+.box img {
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    margin-bottom: 20px;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 180px;
+}
+
+.namethisagain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 80px;
+    background-color: hsl(204, 25%, 88%);
+}
+
+.top {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 5px;
+}
+
+.bottom {
+    display: flex;
+    gap: 43px;
+}
+
+footer p {
+    color: black;
+    font-size: 13px;
+}
+.topbottom{
+    margin-right:200px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 200px;
+    gap:20px;
+}
+
+.socials img{
+    width:18px;
+}
+
+footer h1{
+    margin-right: auto;
+    margin-left: 200px;
+    font-size: 3rem;
+    font-weight: normal;
+    color: hsl(171, 66%, 44%);
+    font-family: sans-serif;
+}
+
+
+.buttons button:hover{
+    cursor: pointer;
+}
+
+.box2 img:hover{
+    cursor: pointer;
+}
+
+.topbottom p:hover{
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
+}
+
+.socials img:hover{
+    cursor: pointer;
+    fill: hsl(171, 66%, 44%);
+}
+
+#iosbutton:hover {
+    background-color: hsl(171, 66%, 48%);
+}
+
+#macbutton:hover {
+    background-color: hsl(233, 100%, 73%);
+}
+
+
+@media only screen and (max-width:768px){
+
+    
+    .imagerow img{
+        width:580px;
+    }
+    .imagerow{
+        flex-direction: column;
+    }
+    .imagerow img{
+        margin:0;
+    }
+   .historyText p{
+    width:345px;
+   } 
+
+   .buttons{
+    flex-direction: column;
+   }
+   #copyright{
+    margin-bottom:20px;
+   }
+
+   .groups{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:40px;
+   }
+
+   .group h3{
+    margin-bottom: 20px;
+   }
+   .group{
+    text-align: center;
+    margin:40px 220px;
+   }
+
+   .imagecenter img{
+    width:580px;
+   }
+
+   .namethis,
+   .namethisagain{
+    flex-direction: column;
+   }
+
+
+   footer{
+    flex-direction: column;
+    height:fit-content;
+    
+   }
+   .top,
+   .bottom{
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    gap:20px;
+    width:100%;
+    text-align: center;
+   }
+
+   footer h1{
+    margin:0;
+    margin-top:30px;
+   }
+   footer p{
+    margin:0;
+   }
+
+   .socials{
+    margin:0;
+    margin-bottom:40px;
+   }
+
+   .topbottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+   }
+
+   .top{
+    margin-bottom:20px;
+   }
+
+   #pcbg {
+    opacity: 0;
+}
+
+#mbbg{
+    opacity: 1;
+}
+}
